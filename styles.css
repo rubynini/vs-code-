@@ -1,0 +1,84 @@
+:root {
+    --marrom-principal: #865D40;
+    --verde-secundário: #81A453;
+    --preto-terciario: #000000;
+    --botão-bege: #F6E8C9;
+    --cor-de-fundo: #F6E8C9;
+    --fonte-principal: 'quattrocento'
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--marrom-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+*{
+    margin: 20;
+    padding: 0;
+
+}
+
+.principal {
+   background-image :url("xícara-removebg-preview.png");
+   background-repeat: no-repeat;
+   background-size: auto;
+   align-items: center;
+   text-align: center;
+
+}
+
+.container {
+        height: 120vh;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+.container__botao {
+    background-color: var(--verde-secundário);
+    border-radius: 16px;
+    padding: 1em;
+    color: var(--cor-de-fundo);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.container__subtitulo {
+    font-size: 15px;
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__imagem{
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa{
+    margin: 0 6em ;
+}
+
+.secundario__imagem{
+    width: 80%;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 3em;
+}
+
+.descricao__titulo{
+    font-weight: 800;
+    font-size: 48px;
+    color: var(--verde-secundário);
+    margin-bottom: 0. 5em;
+}
+
+.descricao__texto{
+    color: #865D40;
+}

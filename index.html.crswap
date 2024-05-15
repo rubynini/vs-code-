@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>Coffee Korean</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+
+<body>
+    <section class="container principal">
+        <div>
+            <
+             <h1>Coffee Korean</h1>
+             <img src="coffee_korean-removebg-preview.png" alt="um pedacinho da coréia no seu café">
+             <a href="www.coffee korean.com.br"class="container__botao">Faça o seu pedido!</a>
+             <p class="container__subtitulo">um pedacinho da Coréia no seu café</p>
+        </div>
+    </section>
+</body>
+
+</html>
